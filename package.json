@@ -1,0 +1,34 @@
+{
+  "name": "simple-ai",
+  "description": "This AI is still in the development stage, don't expect more from this module. AI intents come from google scrape",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "setup": "pip install requirements.txt | npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzrilsh/simpleAI.git"
+  },
+  "keywords": [
+    "ai",
+    "simple ai",
+    "machine learning",
+    "chatbot",
+    "browser"
+  ],
+  "dependencies": {
+    "google-it": "^1.6.4",
+    "jsdom": "^20.0.3",
+    "python-shell": "^3.0.1",
+    "scrape-it": "^5.3.2",
+    "translate-google": "^1.5.0"
+  },
+  "author": "Fazril Syaveral Hillaby <npm@fzrilsh>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fzrilsh/simpleAI/issues"
+  },
+  "homepage": "https://github.com/fzrilsh/simpleAI#readme"
+}
