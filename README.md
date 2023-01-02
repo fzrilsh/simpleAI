@@ -16,7 +16,7 @@ This AI is still in the development stage, don't expect more from this module. A
 Install using:
 
 ```shell
-npm install simple-ai --save
+npm install simple-ai-alpha --save
 ```
 
 ### WARNING
@@ -30,7 +30,7 @@ pip install bs4 sklearn nltk numpy requests
 Get the response:
 
 ```javascript
-var simpleAI = require("simple-ai");
+var simpleAI = require("simple-ai-alpha");
 
 simpleAI("kapan indonsia merdeka", function(response){
   console.log(response)
