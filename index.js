@@ -7,7 +7,7 @@ const { JSDOM } = require("jsdom");
 async function simpleAI(text, callback){
     if(text){
         text = await translate(text, {to: "en"})
-        var search = (await google({query: text}))
+        var search = (await google({"no-display": true, query: text}))
         var bodys = ""
         try {
             for (var g of search) {
